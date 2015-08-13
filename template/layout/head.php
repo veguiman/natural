@@ -19,13 +19,9 @@
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="assets/fonts/css/font-awesome.css">
-
-	<!-- Hoja de Estilos owl carousel -->
-	<link rel="stylesheet" href="assets/css/carousel/owl.carousel.css">
+	<!-- Hoja de Estilos Revolution slider -->
+	<link href="assets/rs-plugin/css/settings.css" rel="stylesheet">
+	<!-- Hoja de Estilos Navegacion Revolution slider -->
+	<link href="assets/rs-plugin/css/navstylechange.css" rel="stylesheet">
 	 
-	<!-- Tema por defecto owl carousel -->
-	<link rel="stylesheet" href="assets/css/carousel/owl.theme.css">
-
-	<!-- Transiciones  owl carousel -->
-	<link rel="stylesheet" href="assets/css/carousel/owl.transitions.css">
 </head>

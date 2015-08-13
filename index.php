@@ -7,12 +7,14 @@
 		<?php include('template/includes/menu.php'); ?>
 	</header>
 
-	
+		<!-- Contenido -->
 		<div class="row">
-			<!-- Contenido -->
 			<div class="col-lg-12">
-				
 				<?php include('template/components/slider.php'); ?>
+			</div>
+			<!-- Formulario -->
+			<div class="col-lg-12">
+				<?php include('template/components/formulario.php'); ?>
 			</div>
 		</div>
 	<!-- Pie de Pagina -->
@@ -26,25 +28,22 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
  
-		  $("#owl-demo").owlCarousel({
-		 	  autoplay:5000,
-		 	  autoplay:true,
-		 	  stopOnHover : true,
-		      navigation : true, // Show next and prev buttons
-		      paginationSpeed : 1000,
-		      goToFirstSpeed : 2000,
-		      singleItem:true,
-		      transitionStyle:"fade"
+		 	if($('#rsDemoWrapper').length){
 
-		      // "singleItem:true" is a shortcut for:
-		      // items : 1, 
-		      // itemsDesktop : false,
-		      // itemsDesktopSmall : false,
-		      // itemsTablet: false,
-		      // itemsMobile : false
-		 
-		  });
- 
+
+		     $('.tp-banner').revolution(
+		                {
+		                    delay:8000,
+		                    startwidth:1920,
+		                    startheight:1080,
+		                    hideThumbs:10,
+		                    fullWidth:"on",
+		                    forceFullWidth:"on"
+		                });
+
+		     $('#rsDemoWrapper').css('visibility', 'visible');
+		    }
+
 		});
 	</script>  
 </body>

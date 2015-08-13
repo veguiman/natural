@@ -6,6 +6,7 @@
 		2.1 Menu
 		2.2 Slider
 		2.3 Footer
+		2.4 Formulario
 
 */
 
@@ -27,6 +28,33 @@
 		font-family:"contenido";
 		src:url('../assets/fonts/fuentes/gishabd.ttf');
 	}
+
+	/* Boton Formulario*/
+	.btn-formulario{
+		line-height:6px;
+		vertical-align:middle;
+		width:90px;
+		height:26px;
+		background:#7fbf50;
+		color:white;
+		border-radius:0;
+		border-color:#7fbf50;
+	}
+
+	.btn-formulario:hover{
+		background:#7fbf50;
+		color:white;
+		border-radius:0;
+		border-color:#7fbf50;
+	}
+
+	.btn-formulario:focus{
+		background:#7fbf50;
+		color:white;
+		border-radius:0;
+		border-color:#7fbf50;
+	}
+
 
 /* 2.Componentes */
 
@@ -91,11 +119,7 @@
 
 	/* 2.2 Slider */
 
-	#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-	}
+
 
 	/* 2.3 Footer */
 
@@ -105,8 +129,18 @@
 		background-color:#f5f5f5;
 	}
 
-	.footer-imagen-logo figure img{
+	.footer{
+		padding-top:30px;
+	}
 
+	.footer-imagen-logo {
+		text-align:right;
+		border-right:1px solid gray;
+	}
+
+	.footer-redes-sociales{
+		text-align:justify;
+		padding-top:15px;
 	}
 
 	.footer-redes-sociales span{
@@ -114,9 +148,82 @@
 		padding-left:8px;
 	}
 
-	.footer-redes-sociales span#footer-redes-sociales-twitter{
+	.footer-redes-sociales span a i{
+		color:gray;
+	}
+
+	.footer-redes-sociales span#footer-redes-sociales--twitter{
 		border-right:1px solid gray;
 		border-left:1px solid gray;
+	}
+
+	.footer-parrafo-superior {
+		text-align:justify;
+		padding-top:10px;
+		display:inline-block;
+		
+	}
+	.footer-parrafo-superior-centrar--span{
+		text-align:center;
+		line-height:19px;
+	}
+	
+	#footer-span-centrar--superior,#footer-span-centrar--superior{
+		display:table-cell;
+ 		vertical-align:middle;
+	}
+	span#footer-span-centrar--superior{
+		font-size:10px;
+		display:block;
+		text-align:center;
+	}
+
+	span#footer-span-centrar--inferior{
+		font-size:10px;
+		display:block;
+		text-align:center;
+	}
+
+	span#footer-span-centrar--medio--pbx{
+		font-size:18px;
+		display:inline-block;
+
+	}
+
+	span#footer-span-centrar--medio--pbx--numero{
+		font-size:13px;
+		display:inline-block;
+
+	}
+
+	span#footer-span-centrar--medio--telefono{
+		font-size:48px;
+		font-weight:bold;
+		display:inline-block;
+	}
+
+	.footer-parrafo-inferior p{
+		padding-top:15px;
+		text-align:center;
+		font-size:11px;
+	}
+
+	/* 2.4 Formulario */
+
+	.formulario{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.formulario-label span{
+		text-align:center;
+		height:30px;
+		background:gray;
+	}
+
+	.formulario-input input,.formulario-input textarea{
+		background-color:#f5f5f5;
+		border-radius:0;
+		margin-top:-1px;
 	}
 
 	
