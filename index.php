@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='angularRoutingApp'>
 <?php include('template/layout/head.php');?>
-<body>
+
+<body ng-controller='mainController'>
+	
 	<!-- Cabecera -->
 	<header id="header">
 		<?php include('template/includes/menu.php'); ?>
@@ -9,14 +11,19 @@
 
 		<!-- Contenido -->
 		<div class="row">
-			<div class="col-lg-12">
+			
+			<div class="col-lg-12" >
 				<?php include('template/components/slider.php'); ?>
 			</div>
 			<!-- Formulario -->
 			<div class="col-lg-12">
 				<?php include('template/components/formulario.php'); ?>
 			</div>
+
+
 		</div>
+
+		
 	<!-- Pie de Pagina -->
 	<footer  class="pie-pagina">
 		<?php include('template/includes/footer.php'); ?>
